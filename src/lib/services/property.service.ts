@@ -4,3 +4,7 @@ export interface Property extends Ids {
   // Ids
   value?: any;
 }
+
+export class PropertyService {
+  constructor() {}
+}

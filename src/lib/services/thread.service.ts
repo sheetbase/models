@@ -49,3 +49,7 @@ export type ThreadX = ParentThread;
 export type ChildThread = Thread;
 export type MessageX = ChildThread;
 export type Message = ChildThread;
+
+export class ThreadService {
+  constructor() {}
+}

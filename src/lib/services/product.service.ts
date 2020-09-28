@@ -12,7 +12,7 @@ import {
   Statistics,
   Extras,
 } from '../types';
-import {Post} from './post.schema';
+import {Post} from './post.service';
 
 export interface ProductOption {
   title?: string;
@@ -95,4 +95,8 @@ export interface Product
   // Statistics
   keywords?: string;
   // Extras
+}
+
+export class ProductService {
+  constructor() {}
 }

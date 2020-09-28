@@ -9,3 +9,7 @@ export interface Promotion extends Ids, Extras {
   origin?: string;
   // Extras
 }
+
+export class PromotionService {
+  constructor() {}
+}

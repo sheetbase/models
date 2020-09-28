@@ -13,7 +13,7 @@ import {
   Extras,
 } from '../types';
 
-export interface Video
+export interface Audio
   extends Ids,
     Status,
     Authors,
@@ -37,7 +37,12 @@ export interface Video
   src?:
     | string
     | {
-        [type: string]: any; // { mp4: ..., webm: ... }
+        [type: string]: any; // { mp3: ..., webm: ... }
+      };
+  sheet?:
+    | string
+    | {
+        [type: string]: any; // { jpg: ..., pdf: ... }
       };
   duration?: number;
   birthday?: number | string;
@@ -48,10 +53,19 @@ export interface Video
   origin?: string;
   // Parents
   // Relationships
+  genres?:
+    | string
+    | {
+        [$key: string]: any;
+      };
   // Taxonomies
   // Rating
   // Sharing
   // Statistics
   keywords?: string;
   // Extras
+}
+
+export class AudioService {
+  constructor() {}
 }

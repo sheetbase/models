@@ -13,7 +13,7 @@ import {
   Extras,
 } from '../types';
 
-export interface Post
+export interface Video
   extends Ids,
     Status,
     Authors,
@@ -30,15 +30,20 @@ export interface Post
   type?: string;
   // Status
   createdAt?: string;
-  updatedAt?: string;
   // Authors
   // Images
-  excerpt?: string;
+  description?: string;
   // Content
-  slides?: {
-    [slide: string]: Post;
-  };
+  src?:
+    | string
+    | {
+        [type: string]: any; // { mp4: ..., webm: ... }
+      };
   duration?: number;
+  birthday?: number | string;
+  props?: {
+    [prop: string]: any;
+  };
   locale?: string;
   origin?: string;
   // Parents
@@ -49,4 +54,8 @@ export interface Post
   // Statistics
   keywords?: string;
   // Extras
+}
+
+export class VideoService {
+  constructor() {}
 }

@@ -43,3 +43,7 @@ export interface Bundle
   keywords?: string;
   // Extras
 }
+
+export class BundleService {
+  constructor() {}
+}

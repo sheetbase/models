@@ -12,3 +12,7 @@ export interface Page extends Ids, Status, Images, Content, Extras {
   origin?: string;
   // Extras
 }
+
+export class PageService {
+  constructor() {}
+}

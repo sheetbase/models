@@ -10,3 +10,7 @@ export interface Category extends Ids, Images, Extras {
   origin?: string;
   // Extras
 }
+
+export class CategoryService {
+  constructor() {}
+}

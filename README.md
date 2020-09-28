@@ -29,97 +29,97 @@ const post: Post = {};
 
 ### :blue_heart: Category `101` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/categories.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/category.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/categories.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/categories.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/category.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/categories.json)
 
 `sheetbase db create categories`
 
 ### :blue_heart: Tag `102` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/tags.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/tag.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/tags.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/tags.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/tag.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/tags.json)
 
 `sheetbase db create tags`
 
 ### :blue_heart: Page `103` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/pages.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/page.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/pages.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/pages.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/page.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/pages.json)
 
 `sheetbase db create pages`
 
 ### :blue_heart: Post `104` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/posts.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/post.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/posts.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/posts.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/post.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/posts.json)
 
 `sheetbase db create posts`
 
 ### :blue_heart: Author `105` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/authors.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/author.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/authors.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/authors.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/author.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/authors.json)
 
 `sheetbase db create authors`
 
 ### :blue_heart: Thread `106` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/threads.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/thread.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/threads.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/threads.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/thread.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/threads.json)
 
 `sheetbase db create threads`
 
 ### :blue_heart: User `107` :x:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/user.schema.ts)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/user.service.ts)
 
 `sheetbase db create users`
 
 ### :blue_heart: Option `108` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/option.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/options.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/option.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/options.json)
 
 `sheetbase db create options`
 
 ### :green_heart: Bundle `111` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/bundles.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/bundle.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/bundles.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/bundles.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/bundle.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/bundles.json)
 
 `sheetbase db create bundles`
 
 ### :green_heart: Audio `112` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/audios.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/audio.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/audios.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/audios.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/audio.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/audios.json)
 
 `sheetbase db create audios`
 
 ### :green_heart: Video `113` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/videos.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/video.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/videos.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/videos.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/video.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/videos.json)
 
 `sheetbase db create videos`
 
 ### :green_heart: Product `114` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/products.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/product.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/products.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/products.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/product.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/products.json)
 
 `sheetbase db create products`
 
 ### :heart: Order `161` :x:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/order.schema.ts)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/order.service.ts)
 
 `sheetbase db create orders`
 
 ### :heart: Property `162` :x:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/properties.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/property.schema.ts)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/properties.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/property.service.ts)
 
 `sheetbase db create properties`
 
 ### :purple_heart: Notification `181` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/notifications.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/notification.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/notifications.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/notifications.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/notification.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/notifications.json)
 
 `sheetbase db create notifications`
 
 ### :purple_heart: Promotion `182` :earth_asia:
 
-[Schema](https://github.com/sheetbase/models/blob/master/schemas/promotions.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/schemas/promotion.schema.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/promotions.json)
+[Schema](https://github.com/sheetbase/models/blob/master/schemas/promotions.json) | [Type](https://github.com/sheetbase/models/blob/master/src/lib/services/promotion.service.ts) | [Sample](https://github.com/sheetbase/models/blob/master/samples/promotions.json)
 
 `sheetbase db create promotions`
 
@@ -146,19 +146,19 @@ Sheet fields are sorted by groups.
 - `keywords`
 - Extras: `meta`
 
-## Model
+## Schema
 
 Every model is defined in a `.json` file. File name is a **plural** string of a content type (categories, posts, ...) and is used as the model name.
 
 ```ts
-export interface Model {
+export interface Schema {
   gid: string | number; // will be corverted to string
   public?: boolean;
   dataUrl?: string;
-  schema: ModelSchema[];
+  schema: SchemaItem[];
 }
 
-export interface ModelSchema {
+export interface SchemaItem {
   name: string;
   width?: number;
   note?: string;

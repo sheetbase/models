@@ -67,3 +67,7 @@ export interface UserSecret {
   oobMode?: UserOobMode;
   oobTimestamp?: number;
 }
+
+export class UserService {
+  constructor() {}
+}

@@ -55,3 +55,7 @@ export interface Order extends Ids, Status, Extras {
   };
   // Extras
 }
+
+export class OrderService {
+  constructor() {}
+}

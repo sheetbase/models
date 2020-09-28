@@ -9,3 +9,7 @@ export interface Notification extends Ids, Extras {
   origin?: string;
   // Extras
 }
+
+export class NotificationService {
+  constructor() {}
+}

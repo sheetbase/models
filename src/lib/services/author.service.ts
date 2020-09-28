@@ -1,11 +1,8 @@
 import {
   Ids,
   Status,
-  Authors,
   Images,
   Content,
-  Parents,
-  Relationships,
   Taxonomies,
   Rating,
   Sharing,
@@ -13,14 +10,11 @@ import {
   Extras,
 } from '../types';
 
-export interface Audio
+export interface Author
   extends Ids,
     Status,
-    Authors,
     Images,
     Content,
-    Parents,
-    Relationships,
     Taxonomies,
     Rating,
     Sharing,
@@ -30,38 +24,25 @@ export interface Audio
   type?: string;
   // Status
   createdAt?: string;
-  // Authors
   // Images
   description?: string;
   // Content
-  src?:
-    | string
-    | {
-        [type: string]: any; // { mp3: ..., webm: ... }
-      };
-  sheet?:
-    | string
-    | {
-        [type: string]: any; // { jpg: ..., pdf: ... }
-      };
-  duration?: number;
-  birthday?: number | string;
-  props?: {
+  email?: string;
+  phoneNumber?: number | string;
+  url?: string;
+  stats?: {
     [prop: string]: any;
   };
   locale?: string;
   origin?: string;
-  // Parents
-  // Relationships
-  genres?:
-    | string
-    | {
-        [$key: string]: any;
-      };
   // Taxonomies
   // Rating
   // Sharing
   // Statistics
   keywords?: string;
   // Extras
+}
+
+export class AuthorService {
+  constructor() {}
 }

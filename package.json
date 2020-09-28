@@ -14,9 +14,9 @@
   ],
   "scripts": {
     "compile": "tsc",
-    "build": "npm.cmd run compile",
+    "build": "npm run compile",
     "docs": "ayedocs generate",
-    "test": "npm.cmd run compile && nyc --cache false mocha test/**/*.js",
+    "test": "npm run compile && nyc --cache false mocha test/**/*.js",
     "coverage": "nyc --cache false report --reporter=text-lcov | coveralls",
     "check": "gts check",
     "fix": "gts fix"
