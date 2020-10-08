@@ -11,7 +11,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from '../types';
+} from '../types/shared.type';
 
 export interface Video
   extends Ids,
@@ -37,12 +37,12 @@ export interface Video
   src?:
     | string
     | {
-        [type: string]: any; // { mp4: ..., webm: ... }
+        [type: string]: unknown; // { mp4: ..., webm: ... }
       };
   duration?: number;
   birthday?: number | string;
   props?: {
-    [prop: string]: any;
+    [prop: string]: unknown;
   };
   locale?: string;
   origin?: string;

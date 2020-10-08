@@ -1,4 +1,11 @@
-import {Ids, Status, Rating, Sharing, Statistics, Extras} from '../types';
+import {
+  Ids,
+  Status,
+  Rating,
+  Sharing,
+  Statistics,
+  Extras,
+} from '../types/shared.type';
 
 export interface ThreadAttachment {
   // link attachment
@@ -44,10 +51,8 @@ export interface Thread
 }
 
 export type ParentThread = Omit<Thread, 'parent'>;
-export type ThreadX = ParentThread;
 
 export type ChildThread = Thread;
-export type MessageX = ChildThread;
 export type Message = ChildThread;
 
 export class ThreadService {

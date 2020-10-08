@@ -10,7 +10,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from '../types';
+} from '../types/shared.type';
 
 export interface Bundle
   extends Ids,

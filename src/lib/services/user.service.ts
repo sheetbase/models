@@ -13,7 +13,7 @@ export interface UserProfileSettings {
   $addresses?: boolean;
   $type?: boolean;
   // for additionalData
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export interface User extends UserInfo, UserSecret {
@@ -41,7 +41,7 @@ export interface UserProfile extends UserEditableProfile {
   email?: string;
   phoneNumber?: number | string;
   claims?: {
-    [key: string]: any;
+    [key: string]: unknown;
   };
   // UserEditableProfile
 }
@@ -54,9 +54,9 @@ export interface UserEditableProfile {
   addresses?:
     | string
     | {
-        [name: string]: any;
+        [name: string]: unknown;
       };
-  additionalData?: any;
+  additionalData?: unknown;
 }
 
 export interface UserSecret {

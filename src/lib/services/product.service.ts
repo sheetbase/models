@@ -11,7 +11,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from '../types';
+} from '../types/shared.type';
 import {Post} from './post.service';
 
 export interface ProductOption {
@@ -23,7 +23,7 @@ export interface ProductOption {
 
 export interface ProductOptionItem {
   title: string;
-  content?: any; // color code, ...
+  content?: unknown; // color code, ...
   offset?: number; // positive or nagative, original price + this
 }
 
@@ -75,7 +75,7 @@ export interface Product
   props?: {
     weight?: string;
     dimensions?: string;
-    [prop: string]: any;
+    [prop: string]: unknown;
   };
   stockCount?: number;
   soldCount?: number;

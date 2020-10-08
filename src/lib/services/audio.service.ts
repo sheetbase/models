@@ -11,7 +11,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from '../types';
+} from '../types/shared.type';
 
 export interface Audio
   extends Ids,
@@ -37,17 +37,17 @@ export interface Audio
   src?:
     | string
     | {
-        [type: string]: any; // { mp3: ..., webm: ... }
+        [type: string]: unknown; // { mp3: ..., webm: ... }
       };
   sheet?:
     | string
     | {
-        [type: string]: any; // { jpg: ..., pdf: ... }
+        [type: string]: unknown; // { jpg: ..., pdf: ... }
       };
   duration?: number;
   birthday?: number | string;
   props?: {
-    [prop: string]: any;
+    [prop: string]: unknown;
   };
   locale?: string;
   origin?: string;
@@ -56,7 +56,7 @@ export interface Audio
   genres?:
     | string
     | {
-        [$key: string]: any;
+        [$key: string]: unknown;
       };
   // Taxonomies
   // Rating

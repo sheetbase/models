@@ -16,7 +16,7 @@ export interface Authors {
   authors?:
     | string
     | {
-        [$key: string]: any;
+        [$key: string]: unknown;
       };
 }
 
@@ -32,14 +32,14 @@ export interface Content {
 export interface Parents {
   // { bundle-1: ... }
   parents?: {
-    [$key: string]: any;
+    [$key: string]: unknown;
   };
 }
 
 export interface Relationships {
   // { "posts/post-1": ... }
   relationships?: {
-    [to: string]: any;
+    [to: string]: unknown;
   };
 }
 
@@ -50,7 +50,7 @@ export interface Taxonomies {
   categories?:
     | string
     | {
-        [$key: string]: any;
+        [$key: string]: unknown;
       };
   // Tag 1
   // Tag 1, Tag 2
@@ -58,7 +58,7 @@ export interface Taxonomies {
   tags?:
     | string
     | {
-        [$key: string]: any;
+        [$key: string]: unknown;
       };
 }
 
@@ -84,5 +84,5 @@ export interface Statistics {
 }
 
 export interface Extras {
-  meta?: any;
+  meta?: unknown;
 }

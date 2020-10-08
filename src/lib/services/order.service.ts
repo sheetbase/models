@@ -1,4 +1,4 @@
-import {Ids, Status, Extras} from '../types';
+import {Ids, Status, Extras} from '../types/shared.type';
 
 export interface OrderProduct {
   _id: string;

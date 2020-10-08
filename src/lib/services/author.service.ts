@@ -8,7 +8,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from '../types';
+} from '../types/shared.type';
 
 export interface Author
   extends Ids,
@@ -31,7 +31,7 @@ export interface Author
   phoneNumber?: number | string;
   url?: string;
   stats?: {
-    [prop: string]: any;
+    [prop: string]: unknown;
   };
   locale?: string;
   origin?: string;

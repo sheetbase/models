@@ -1,8 +1,8 @@
-import {Ids} from '../types';
+import {Ids} from '../types/shared.type';
 
 export interface Property extends Ids {
   // Ids
-  value?: any;
+  value?: unknown;
 }
 
 export class PropertyService {
